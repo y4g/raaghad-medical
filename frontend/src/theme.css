@@ -1,0 +1,95 @@
+:root[data-font-size="small"] {
+  font-size: 14px;
+}
+:root[data-font-size="large"] {
+  font-size: 18px;
+}
+:root[data-motion="reduced"] *,
+:root[data-motion="reduced"] *::before,
+:root[data-motion="reduced"] *::after {
+  animation-duration: 0.12s !important;
+  transition-duration: 0.12s !important;
+}
+:root[data-motion="none"] *,
+:root[data-motion="none"] *::before,
+:root[data-motion="none"] *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+:root[data-theme="dark"] body,
+:root[data-theme="dark"] .main-content {
+  background: #17202a;
+  color: #dae2ea;
+}
+:root[data-theme="dark"] .topbar,
+:root[data-theme="dark"] footer,
+:root[data-theme="dark"] .records-card,
+:root[data-theme="dark"] .clinical-card,
+:root[data-theme="dark"] .record-profile,
+:root[data-theme="dark"] .today-board,
+:root[data-theme="dark"] .calendar-toolbar,
+:root[data-theme="dark"] .month-grid > section,
+:root[data-theme="dark"] .calendar-day,
+:root[data-theme="dark"] .record-tabs,
+:root[data-theme="dark"] .stat-card,
+:root[data-theme="dark"] .header-popover {
+  background: #202c38;
+  border-color: #354454;
+}
+:root[data-theme="dark"] h1,
+:root[data-theme="dark"] h2,
+:root[data-theme="dark"] h3,
+:root[data-theme="dark"] strong,
+:root[data-theme="dark"] .brand strong {
+  color: #e7edf4;
+}
+:root[data-theme="dark"] input,
+:root[data-theme="dark"] select,
+:root[data-theme="dark"] textarea {
+  background: #17232e !important;
+  color: #e4ebf2 !important;
+  border-color: #415161 !important;
+}
+:root[data-theme="dark"] .appointment-board,
+:root[data-theme="dark"] .status-column,
+:root[data-theme="dark"] .timeline-content,
+:root[data-theme="dark"] .appointment-card {
+  background: #1c2732;
+  border-color: #394857;
+}
+:root[data-theme="dark"] .modal {
+  background: #202c38;
+  color: #e7edf4;
+}
+:root[data-theme="dark"] .modal-header,
+:root[data-theme="dark"] .booking-step {
+  border-color: #354454;
+}
+:root[data-theme="dark"] .booking-step h3,
+:root[data-theme="dark"] .form-grid label,
+:root[data-theme="dark"] .notes-label {
+  color: #dce5ee;
+}
+:root[data-theme="dark"] .selected-option,
+:root[data-theme="dark"] .option-results button,
+:root[data-theme="dark"] .reason-results button {
+  background: #1c2732;
+  border-color: #415161;
+}
+:root[data-theme="dark"] .selected-option strong,
+:root[data-theme="dark"] .option-results strong,
+:root[data-theme="dark"] .reason-results button {
+  color: #e4ebf2;
+}
+:root[data-theme="dark"] .icon-button {
+  background: #17232e;
+  color: #c7d3de;
+}
+:root[data-theme="dark"] .inline-form-error {
+  background: #442a2d;
+  color: #ffccce;
+}
